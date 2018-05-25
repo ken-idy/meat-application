@@ -11,12 +11,13 @@ import { HomeComponent } from './home/home.component';
 
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { RestaurantComponent } from './restaurants/restaurant/restaurant.component';
-import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
-import { MenuComponent } from './restaurant-detail/menu/menu.component';
-import { MenuItemComponent } from './restaurant-detail/menu-item/menu-item.component';
-import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shopping-cart.component';
-import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
+import { RestaurantDetailComponent } from './restaurants/restaurant/restaurant-detail/restaurant-detail.component';
+import { MenuComponent } from './restaurants/restaurant/restaurant-detail/menu/menu.component';
+import { MenuItemComponent } from './restaurants/restaurant/restaurant-detail/menu-item/menu-item.component';
+import { ShoppingCartComponent } from './restaurants/restaurant/restaurant-detail/shopping-cart/shopping-cart.component';
+import { ReviewsComponent } from './restaurants/restaurant/restaurant-detail/reviews/reviews.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -33,6 +34,7 @@ import { OrderSummaryComponent } from './order-summary/order-summary.component';
     ShoppingCartComponent,
     ReviewsComponent,
     OrderSummaryComponent,
+    NotFoundComponent,
 
 
   ],

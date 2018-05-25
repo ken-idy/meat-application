@@ -1,4 +1,4 @@
-import { MenuItem } from './../restaurant-detail/menu-item/menu-item.model';
+import { MenuItem } from './restaurant/restaurant-detail/menu-item/menu-item.model';
 
 import{Injectable} from '@angular/core';
 import {Http} from '@angular/http';

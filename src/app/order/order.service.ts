@@ -1,11 +1,13 @@
 import { MEAT_API } from './../app.api';
 import { Observable } from 'rxjs/Observable';
-import { CartItem } from './../restaurant-detail/shopping-cart/cart-item.model';
-import { ShoppingCartService } from './../restaurant-detail/shopping-cart/shoppig-cart.service';
+
+
 import { Injectable } from '@angular/core';
 import { Http, Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/map';
 import {Order, OrderItem} from './order.model';
+import { CartItem } from 'app/restaurants/restaurant/restaurant-detail/shopping-cart/cart-item.model';
+import { ShoppingCartService } from 'app/restaurants/restaurant/restaurant-detail/shopping-cart/shoppig-cart.service';
 
 
 @Injectable()

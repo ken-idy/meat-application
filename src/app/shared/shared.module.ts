@@ -3,7 +3,7 @@ import { NotificationService } from './messages/notification.service';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ShoppingCartService } from './../restaurant-detail/shopping-cart/shoppig-cart.service';
+import { ShoppingCartService } from './../restaurants/restaurant/restaurant-detail/shopping-cart/shoppig-cart.service';
 import { RatingComponent } from './../rating/rating.component';
 import { RadioComponent } from './radio/radio.component';
 import { InputComponent } from './input/input.component';

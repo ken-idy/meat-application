@@ -1,7 +1,8 @@
-import { NotificationService } from './../../shared/messages/notification.service';
+
 import { Injectable } from '@angular/core';
 import { MenuItem } from './../menu-item/menu-item.model';
 import { CartItem } from './cart-item.model';
+import { NotificationService } from 'app/shared/messages/notification.service';
 @Injectable()
 export class ShoppingCartService {
 

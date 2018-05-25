@@ -1,7 +1,8 @@
+import { NotFoundComponent } from './not-found/not-found.component';
 
-import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
-import { MenuComponent } from './restaurant-detail/menu/menu.component';
-import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
+import { ReviewsComponent } from './restaurants/restaurant/restaurant-detail/reviews/reviews.component';
+import { MenuComponent } from './restaurants/restaurant/restaurant-detail/menu/menu.component';
+import { RestaurantDetailComponent } from './restaurants/restaurant/restaurant-detail/restaurant-detail.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { HomeComponent } from './home/home.component';
 import{Routes} from '@angular/router';
@@ -22,6 +23,7 @@ export const ROUTES: Routes = [
   },
   { path: 'order', loadChildren: './order/order.module#OrderModule'},
   { path: 'order-summary', component: OrderSummaryComponent },
-  { path: 'about', loadChildren: './about/about.module#AboutModule'}
+  { path: 'about', loadChildren: './about/about.module#AboutModule'},
+  { path: '**', component: NotFoundComponent}
 
 ]

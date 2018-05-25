@@ -1,4 +1,4 @@
-import { CartItem } from './../restaurant-detail/shopping-cart/cart-item.model';
+
 import {FormGroup, FormBuilder, Validators, AbstractControl} from '@angular/forms';
 
 import { OrderService } from './order.service';
@@ -6,6 +6,7 @@ import { RadioOption } from './../shared/radio/radio-option.model';
 import { Component, OnInit } from '@angular/core';
 import { Order, OrderItem} from './order.model'
 import { Router } from '@angular/router';
+import { CartItem } from 'app/restaurants/restaurant/restaurant-detail/shopping-cart/cart-item.model';
 
 
 @Component({
