@@ -1,4 +1,4 @@
-import { ROUTES } from './../app.routes';
+
 import { SharedModule } from './../shared/shared.module';
 import { DeliveryCostsComponent } from './delivery-costs/delivery-costs.component';
 import { OrderItemsComponent } from './order-items/order-items.component';
@@ -7,7 +7,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-const ROUTES:  Routes = [
+const ROUTES: Routes = [
 
     {path: '', component: OrderComponent}
 ];

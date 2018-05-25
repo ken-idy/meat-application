@@ -1,3 +1,4 @@
+import { NotificationService } from './messages/notification.service';
 
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -25,7 +26,7 @@ export class SharedModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: SharedModule,
-            providers: [ShoppingCartService, RestaurantsService, OrderService]
+            providers: [ShoppingCartService, RestaurantsService, OrderService, NotificationService]
 
         }
 
