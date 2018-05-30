@@ -13,7 +13,7 @@ import { RestaurantsService } from './restaurants.service';
 })
 export class RestaurantsComponent implements OnInit {
 
-   restaurants: Observable<Restaurant[]>
+   restaurants: Observable<Restaurant>
 
 
      constructor(private restaurantsService: RestaurantsService) { }

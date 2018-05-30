@@ -12,7 +12,7 @@ import { RestaurantsService } from 'app/restaurants/restaurants.service';
 })
 export class RestaurantDetailComponent implements OnInit {
 
-  restaurant: Restaurant[];
+  restaurant: Restaurant;
 
   constructor(private RestaurantsService: RestaurantsService, private route: ActivatedRoute) { }
 
