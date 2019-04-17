@@ -18,11 +18,18 @@
 
 ### Instalando o json-server
 
-`npm install -g json-server`
+`npm install -g json-server` or npm install --save json-server
 
 ### Iniciando o serviço (raiz da aplicação)
 
-`json-server db.json`
+`json-server db.json` or npm run json:server
+
+Angular 6 update :
+
+ng update @angular/compiler-cli --force
+
+npm i typescript@3.1.6 --save-dev --save-exact
+
 
 ## Goodies
 
